@@ -20,5 +20,8 @@ type fingerprint_data_file, data_file_type, file_type;
 # Insmod
 type sysfs_msm_boot, fs_type, sysfs_type;
 
+# Last kmsg
+type proc_last_kmsg, fs_type, proc_type;
+
 # Pixel Thermal
 type thermal_data_file, data_file_type, file_type;

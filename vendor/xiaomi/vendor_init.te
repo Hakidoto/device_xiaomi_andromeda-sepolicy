@@ -17,3 +17,6 @@ set_prop(vendor_init, vendor_thermal_prop)
 
 # Allow init to bind mount dsp file
 allow init adsprpcd_file:file mounton;
+
+# Allow init to read last_kmsg file
+allow init proc_last_kmsg:file r_file_perms;
