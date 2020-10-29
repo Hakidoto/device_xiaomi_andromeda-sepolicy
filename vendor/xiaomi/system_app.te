@@ -1,4 +1,6 @@
 r_dir_file(system_app, sysfs_zram)
 
+allow system_app hal_dumpstate_impl:binder call;
+
 #============= system_app ==============
 allow system_app vendor_sysfs_graphics:file { getattr open write };
