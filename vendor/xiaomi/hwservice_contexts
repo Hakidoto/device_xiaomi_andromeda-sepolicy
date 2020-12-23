@@ -2,13 +2,6 @@
 vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemon     u:object_r:hal_fingerprint_hwservice_xiaomi:s0
 vendor.xiaomi.hardware.fingerprintextension::IXiaomiFingerprint             u:object_r:hal_fingerprint_hwservice_xiaomi:s0
 
-# FOD
-vendor.hentai.biometrics.fingerprint.inscreen::IFingerprintInscreen         u:object_r:hal_hentai_fod_hwservice:s0
-
-# Camera motor
-vendor.xiaomi.hardware.motor::IMotor                                        u:object_r:hal_xiaomi_camera_motor_hwservice:s0
-vendor.hentai.camera.motor::ICameraMotor                                    u:object_r:hal_hentai_camera_motor_hwservice:s0
-
 # NXP
 vendor.nxp.nxpese::INxpEse                                                  u:object_r:nxpese_hwservice:s0
 vendor.nxp.nxpnfc::INxpNfc                                                  u:object_r:nxpnfc_hwservice:s0
