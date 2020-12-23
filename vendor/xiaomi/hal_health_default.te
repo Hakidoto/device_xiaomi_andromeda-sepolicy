@@ -9,3 +9,6 @@ allow hal_health_default {
   sysfs_thermal
   vendor_sysfs_battery_supply
 }:file rw_file_perms;
+
+#============= hal_health_default ==============
+allow hal_health_default sysfs:file { getattr open read };

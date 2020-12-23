@@ -20,3 +20,9 @@ allow init adsprpcd_file:file mounton;
 
 # Allow init to read last_kmsg file
 allow init proc_last_kmsg:file r_file_perms;
+
+#============= vendor_init ==============
+allow vendor_init default_prop:file read;
+allow vendor_init mnt_vendor_file:lnk_file read;
+allow vendor_init persist_debug_prop:file read;
+allow vendor_init system_data_file:dir { create ioctl open read setattr };
