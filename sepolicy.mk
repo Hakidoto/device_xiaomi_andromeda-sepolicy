@@ -7,6 +7,10 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
 # NXP Sepolicy
 BOARD_SEPOLICY_DIRS += \
     device/xiaomi/andromeda-sepolicy/vendor/nxp
+    
+# Misc Sepolicy
+BOARD_SEPOLICY_DIRS += \
+    device/xiaomi/andromeda-sepolicy/vendor/misc
 
 # Lineage Sepolicy
 BOARD_SEPOLICY_DIRS += \
